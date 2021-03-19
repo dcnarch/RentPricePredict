@@ -1,5 +1,5 @@
 # Home Price Rental Predictions
-## Machine Learning model I created for predicting home rental prices.
+## Machine Learning model created for predicting home rental prices.
 Source data taken from Zillow Observed Rent Index (ZORI):
 https://www.zillow.com/research/methodology-zori-repeat-rent-27092/
 
