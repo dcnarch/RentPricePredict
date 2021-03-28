@@ -1,0 +1,10 @@
+Notes for Noelle (3/28):
+Dataset from Zillow (ZORI) is settled. 2,263 rows, each representing a different zip code in the 100 largest US markets.
+
+Plan to create a predictive model based on 2014-18 data (for 2019, then compare predicted results vs. actual) and 2014-19 data (for 2020) so that we can see what a ML model would 
+have predicted had there been no COVID in 2020, affecting rental markets.
+Items to-do:
+1) Data cleansing is still in process, to impute missing values (every monthly column has some data missing, perhaps markets or zip codes that didn't report).
+2) Change zip codes to strings, then move them to the index value.
+3) Create a cluster model for every year, starting in 2014 and ending in 2020.
+4) Start visualizations.  Possible segments for dividing: geographic by regions, by state, by similar rental rates.
