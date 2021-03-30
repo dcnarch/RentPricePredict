@@ -10,6 +10,6 @@ The ML model I created in this project will illustrate the changes over time in 
 
 One model will illustrate predictions for 2019 based on 2014-2018 data, to simply see how accurate the ML model is versus reality.
 
-A second model will illustrate predictions for 2020 based on 2014-2019 data, so we could see the "what if" prediction for rental prices in 2020.  Obviously the emergence of COVID-19 during 2020 drastically altered the landscape for home rental prices, so that unforeseen shock altered the landscape.
+A second model will illustrate predictions for 2020 based on 2014-2019 data, so we could see the "what if" prediction for rental prices in 2020.  Obviously the emergence of COVID-19 during 2020 drastically altered the landscape for home rental prices, so that unforeseen shock altered the actual market landscape, not exactly something that could be predicted nor accounted for in a standard ML model.
 
 We'll also explore the historic trends of markets, and how they ended 2020.
