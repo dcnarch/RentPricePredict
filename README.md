@@ -26,8 +26,10 @@ Surprisingly, rents did not come down by the end of 2020, just the opposite.  Th
 
 Los Angeles appears to have hit a peak, New York was declining, but both the Miami metro markets and all the U.S. as a whole were still increasing as of December 2020.
 
-- ### Most expensive zip code at end of 2020: 90265 Malibu, CA ($9,986/month)
-- ### Least expensive zip code at end of 2020: 44052 Lorain, OH ($727/month)
+Fun facts discovered:
+- Most expensive zip code at end of 2020: 90265 Malibu, CA ($9,986/month)
+- Least expensive zip code at end of 2020: 44052 Lorain, OH ($727/month)
+- Median of all 2,263 zip codes, at the end of 2020: $1,696/month
 
 
 ## Modeling
