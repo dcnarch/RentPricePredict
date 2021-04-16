@@ -37,6 +37,6 @@ A second model illustrates predictions through the end of 2020 based on the same
 
 Wow! Much closer between predicted and actual performance for this zip code market.  Despite the 2020 year affected by COVID-19, it seems best to use 2 years' worth of testing data to see the true results.
 
-### Future plan to model machine learning prediction for each major metro market, starting with Los Angeles.
+### Below is the same model, run on the median prices of all metro zip codes in the L.A. Market: 
 
 
