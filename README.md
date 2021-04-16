@@ -26,6 +26,7 @@ Los Angeles appears to have hit a peak, New York was declining, but both the Mia
 The ML models I created for this project utilized the Recurring Neural Network (RNN) method via Keras. Obviously the emergence of COVID-19 during 2020 drastically altered the landscape for home rental prices.  It remains to find out if that unforeseen shock altered the actual market landscape, not exactly something that could be predicted nor accounted for in a standard ML model.
 
 The first model illustrated predictions for 2019 based on 2014-2018 data, to simply see how accurate the ML model is versus reality. For simplicity, I chose a sample zip code in the L.A. metro market to plot (92618) using those 5 years actual results as training data, and 2019 as the testing data.
+
 ![2019 Prediction](https://github.com/dcnarch/RentPricePredict/blob/main/images/92618-RentPredict2019.png)
 
 One year of testing data didn't seem to be quite enough.
