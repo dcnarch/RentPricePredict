@@ -18,6 +18,7 @@ The Zillow dataset has a median rent price sorted by geographic region, by month
 
 Surprisingly, rents did not come down by the end of 2020, just the opposite.  The average rent increased 1.7% and the median of all markets increased 3.6% year-over-year!
 
+
 - I also explored the historic trends of a the 3 major metro markets with the most zip codes.
 (Los Angeles-Long Beach-Anaheim, CA, New York, NY and Miami-Ft.Lauderdale, FL)
 
