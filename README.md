@@ -12,13 +12,30 @@ After imputing missing values with the bfill method (using the nearest future re
 
 ![Distribution of Rental Markets](https://github.com/dcnarch/RentPricePredict/blob/main/images/2020-2017-2014%20Histogram%20Comparative.png)
 
-I also explored the historic trends of a few of the major metro markets, namely LA, NY and Miami, and how they ended 2020.
+I also explored the historic trends of a the 3 major metro markets with the most zip codes.
+(Los Angeles-Long Beach-Anaheim, CA, New York, NY and Miami-Ft.Lauderdale, FL)
+
 ![Market Trends](https://github.com/dcnarch/RentPricePredict/blob/main/images/USMedianRentTrend.png)
 
-## Modeling
-The ML model I created in this project will illustrate the changes over time in the median rent of specific markets and/or given zip codes.
-The first model will illustrate predictions for 2019 based on 2014-2018 data, to simply see how accurate the ML model is versus reality. For simplicity, I chose a sample zip code in the L.A. metro market to plot 
+Los Angeles appears to have hit a peak, New York was declining, but both the Miami metro markets and all the U.S. as a whole were still increasing as of December 2020.
 
-A second model will illustrate predictions through the end of 2020 based on the same data, so we may see the "what if" prediction for rental prices in 2020.  We would be using the actual data from year 2019 and 2020 as the testing data, to see how our modeled prediction of prices compares to the reality. Obviously the emergence of COVID-19 during 2020 drastically altered the landscape for home rental prices.  It remains to find out if that unforeseen shock altered the actual market landscape, not exactly something that could be predicted nor accounted for in a standard ML model.
+### Most expensive zip code: 90265 Malibu, CA ($9,986/month)
+### Least expensive zip code: 44052 Lorain, OH ($727/month)
+
+## Modeling
+The ML models I created for this project utilized the Recurring Neural Network (RNN) method via Keras. Obviously the emergence of COVID-19 during 2020 drastically altered the landscape for home rental prices.  It remains to find out if that unforeseen shock altered the actual market landscape, not exactly something that could be predicted nor accounted for in a standard ML model.
+
+The first model illustrated predictions for 2019 based on 2014-2018 data, to simply see how accurate the ML model is versus reality. For simplicity, I chose a sample zip code in the L.A. metro market to plot (92618) using those 5 years actual results as training data, and 2019 as the testing data.
+![2019 Prediction](https://github.com/dcnarch/RentPricePredict/blob/main/images/92618-RentPredict2019.png)
+
+One year of testing data didn't seem to be quite enough.
+
+A second model illustrates predictions through the end of 2020 based on the same training data, so we may see the "what if" prediction for rental prices in 2020.  We would be using the actual data from year 2019 and 2020 as the testing data, to see how our modeled prediction of prices compares to the reality.
+
+![2019 & 2020 Prediction](https://github.com/dcnarch/RentPricePredict/blob/main/images/92618-RentPredict2019and2020.png)
+
+Wow! Much closer between predicted and actual performance for this zip code market.  Despite the 2020 year affected by COVID-19, it seems best to use 2 years' worth of testing data to see the true results.
+
+### Future plan to model machine learning prediction for all U.S. zip codes
 
 
