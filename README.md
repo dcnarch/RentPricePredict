@@ -26,8 +26,9 @@ Surprisingly, rents did not come down by the end of 2020, just the opposite.  Th
 
 Los Angeles appears to have hit a peak, New York was declining, but both the Miami metro markets and all the U.S. as a whole were still increasing as of December 2020.
 
-### Most expensive zip code at end of 2020: 90265 Malibu, CA ($9,986/month)
-### Least expensive zip code at end of 2020: 44052 Lorain, OH ($727/month)
+- ### Most expensive zip code at end of 2020: 90265 Malibu, CA ($9,986/month)
+- ### Least expensive zip code at end of 2020: 44052 Lorain, OH ($727/month)
+
 
 ## Modeling
 The ML models I created for this project utilized the Recurring Neural Network (RNN) method via Keras. Obviously the emergence of COVID-19 during 2020 drastically altered the landscape for home rental prices.  It remains to find out if that unforeseen shock altered the actual market landscape, not exactly something that could be predicted nor accounted for in a standard ML model.
