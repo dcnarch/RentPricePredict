@@ -8,11 +8,17 @@ The Zillow dataset has a median rent price sorted by geographic region, by month
 
 ## Exploratory Data Analysis
 
-After imputing missing values with the bfill method (using the nearest future rent to fill null), I plotted a histogram showing the distribution of all 2,263 zip codes.
+- After imputing missing values with the bfill method (using the nearest future rent to fill null), I plotted a histogram showing the distribution of all 2,263 zip codes.
 
 ![Distribution of Rental Markets](https://github.com/dcnarch/RentPricePredict/blob/main/images/2020-2017-2014%20Histogram%20Comparative.png)
 
-I also explored the historic trends of a the 3 major metro markets with the most zip codes.
+- I wanted to visualize the change from 2019 to 2020 specifically as well, due to the emergence of COVID-19 disrupting all economic markets.
+
+![2019 vs. 2020](https://github.com/dcnarch/RentPricePredict/blob/main/images/2020-2019%20Histogram%20Comparative.png)
+
+Surprisingly, rents did not come down by the end of 2020, just the opposite.  The average rent increased 1.7% and the median of all markets increased 3.6% year-over-year!
+
+- I also explored the historic trends of a the 3 major metro markets with the most zip codes.
 (Los Angeles-Long Beach-Anaheim, CA, New York, NY and Miami-Ft.Lauderdale, FL)
 
 ![Market Trends](https://github.com/dcnarch/RentPricePredict/blob/main/images/USMedianRentTrend.png)
@@ -38,6 +44,6 @@ A second model illustrates predictions through the end of 2020 based on the same
 Wow! Much closer between predicted and actual performance for this zip code market.  Despite the 2020 year affected by COVID-19, it seems best to use 2 years' worth of testing data to see the true results.
 
 ### Below is the same model, run on the median prices of all metro zip codes in the L.A. Market: 
-![LA Market Prediction]https://github.com/dcnarch/RentPricePredict/blob/main/images/LAMetro-RentPrediction2019and2020.png
+![LA Market Prediction](https://github.com/dcnarch/RentPricePredict/blob/main/images/LAMetro-RentPrediction2019and2020.png)
 
 When predicting the LA market as a whole, the model was a bit more conservative, underestimating the actual rent price increase to come from end of 2018 to end of 2020, but still ended up very close to actual! Looks like the median of all 165 LA metro area zips modeled about the same as my prior single sample.
