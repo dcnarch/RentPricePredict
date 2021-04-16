@@ -6,12 +6,19 @@ https://www.zillow.com/research/methodology-zori-repeat-rent-27092/
 
 The Zillow dataset has a median rent price sorted by geographic region, by month, for 7 years of data from 2014-2020. It includes the top 100 metro areas in the U.S. and within that, has broken down the median rents by zip code (2,263 total zip codes).  The data has also been factored/adjusted by Zillow for market-skewing features such as unit types and sizes.  Markets may have drastically different dwelling types, and that variation from market-to-market has been accounted for.
 
-The ML model I created in this project will illustrate the changes over time in the median rent of specific markets and/or given zip codes.
+## Exploratory Data Analysis
 
-One model will illustrate predictions for 2019 based on 2014-2018 data, to simply see how accurate the ML model is versus reality.
+After imputing missing values with the bfill method (using the nearest future rent to fill null), I plotted a histogram showing the distribution of all 2,263 zip codes.
+
+![Distribution of Rental Markets](https://github.com/dcnarch/RentPricePredict/blob/main/images/2020-2017-2014%20Histogram%20Comparative.png)
+
+I also explored the historic trends of a few of the major metro markets, namely LA, NY and Miami, and how they ended 2020.
+![Market Trends](https://github.com/dcnarch/RentPricePredict/blob/main/images/USMedianRentTrend.png)
+
+## Modeling
+The ML model I created in this project will illustrate the changes over time in the median rent of specific markets and/or given zip codes.
+The first model will illustrate predictions for 2019 based on 2014-2018 data, to simply see how accurate the ML model is versus reality. For simplicity, I chose a sample zip code in the L.A. metro market to plot 
 
 A second model will illustrate predictions through the end of 2020 based on the same data, so we may see the "what if" prediction for rental prices in 2020.  We would be using the actual data from year 2019 and 2020 as the testing data, to see how our modeled prediction of prices compares to the reality. Obviously the emergence of COVID-19 during 2020 drastically altered the landscape for home rental prices.  It remains to find out if that unforeseen shock altered the actual market landscape, not exactly something that could be predicted nor accounted for in a standard ML model.
 
-We'll also explore the historic trends of a few of the major metro markets, namely LA, NY and Miami, and how they ended 2020.
 
-![Histogram](https://github.com/dcnarch/RentPricePredict/blob/main/images/2020-2017-2014%20Histogram%20Comparative.png)
