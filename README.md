@@ -14,4 +14,4 @@ A second model will illustrate predictions through the end of 2020 based on the 
 
 We'll also explore the historic trends of a few of the major metro markets, namely LA, NY and Miami, and how they ended 2020.
 
-![All U.S. Zip Codes, 2014 - 2017 - 2020](images/2020-2017-2014 Histogram Comparative.png)
+![All U.S. Zip Codes, 2014 - 2017 - 2020](images/'2020-2017-2014 Histogram Comparative.png')
