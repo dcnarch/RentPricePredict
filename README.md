@@ -1,5 +1,5 @@
 # Rental Home Price Prediction Project
-## Data Analysis and Machine Learning model created for determining trends and similar zip codes (in terms of median rent), and to use past results to model future expectations
+## Data Analysis and Machine Learning model created for determining trends & similar zip codes (in terms of median rent), and to use past results to model future expectations
 Source data taken from Zillow Observed Rent Index (ZORI):
 
 https://www.zillow.com/research/methodology-zori-repeat-rent-27092/
