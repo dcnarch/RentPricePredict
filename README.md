@@ -1,4 +1,4 @@
-# Home Rental Price Prediction Project
+# Rental Home Price Prediction Project
 ## Data Analysis and Machine Learning model created for determining trends & similar zip codes (in terms of median rent), and to use past results to model future expectations
 Source data taken from Zillow Observed Rent Index (ZORI):
 
